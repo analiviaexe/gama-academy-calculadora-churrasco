@@ -9,28 +9,28 @@
     <title>Gama Academy - Calculadora de churrasco</title>
   </head>
   <body>
-    <header class="container">
-      <h5>GAMA ACADEMY</h5>
-      <h2>Calculadora de Churrasco</h2>
-    </header>
 
-    <div class="container">       
-      <div class="row">  
-
+    <div class="container">
+      <header>
+        <h5>GAMA ACADEMY</h5>
+        <h2>Calculadora de Churrasco</h2>
+      </header>
+  
+      <div class="row">
         <div class="col">
           <span>Comidas</span>
         </div>
-
+  
         <div class="col"> 
           <label for="mulheres-qnt">Mulheres</label>
           <input id="mulheres-qnt" class="form-control" type="number" />
         </div>
-
+  
         <div class="col"> 
           <label for="homens-qnt">Homens</label>
           <input id="homens-qnt" class="form-control" type="number" />
         </div>
-
+  
         <div class="col">
           <label for="criancas-qnt">Crianças</label>
           <input id="criancas-qnt" class="form-control" type="number" />
@@ -42,36 +42,34 @@
           <input id="acompanhamentos" class="form-control" type="checkbox" />
         </div>
       </div>
-    </div>
-
-    <div class="container">
+  
       <div class="row">
-        
+          
         <div class="col">
           <span>Bebidas</span>
         </div>
-
+  
         <div class="col">
           <label for="bebidas-alcoolicas">Bebidas alcoolicas</label>
           <input id="bebidas-alcoolicas" class="form-control" type="number" />
         </div>
-
+  
         <div class="col">
           <label for="bebidas-nao-alcoolicas">Bebidas não alcoolicas</label>
           <input id="bebidas-nao-alcoolicas" class="form-control" type="number" />
         </div>
-
+  
       </div>
-    </div>
-    <br>
-    
-    <div class="container">
-      <div class="row">
-        <button id="botaoCalcular">Calcular</button>
+      <br>
+      
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <button id="botaoCalcular">Calcular</button>
+        </div>
       </div>
-    </div>
-
-      <div>
+  
+  
+      <div id="resultado">
         <div>
           <label for="total-carne" id="total-carne"></label>
         </div>
@@ -90,6 +88,7 @@
         <div>
       </div>
     </div>
+    
     <script src="./src/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
