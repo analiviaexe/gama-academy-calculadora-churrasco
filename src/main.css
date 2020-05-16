@@ -1,0 +1,40 @@
+header{
+    padding: 5%;  
+    color: white;  
+}
+
+#botaoCalcular{
+    background-color: chartreuse;
+    color: blueviolet;
+    font-weight: bold;
+    border: 0px;
+    margin: 4%;
+    width: 15%;
+    padding: 1%;
+}
+
+input{
+    background-color: blueviolet !important;
+    border-radius: 0% !important;
+    border: 3px solid white !important;
+}
+
+.container{
+    background-color: blueviolet;
+}
+
+.letra-especial {
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px; 
+    color: white;
+}
+
+.letra-especial-titulo{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+
+#resultado{
+    background-color: rgb(179, 149, 207);
+}
+

@@ -6,70 +6,70 @@
     <link rel="stylesheet" type="text/css" href="./src/main.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Lobster&display=swap" rel="stylesheet">
     <title>Gama Academy - Calculadora de churrasco</title>
   </head>
   <body>
 
     <div class="container">
-      <header>
+      <header class="text-center">
         <h5>GAMA ACADEMY</h5>
-        <h2>Calculadora de Churrasco</h2>
+        <h2 class="letra-especial-titulo">Calculadora de Churrasco</h2>
       </header>
   
-      <div class="row">
-        <div class="col">
+      <div class="row letra-especial">
+        <div class="col-md-3 letra-especial-titulo">
           <span>Comidas</span>
         </div>
   
-        <div class="col"> 
-          <label for="mulheres-qnt">Mulheres</label>
+        <div class="col-md-3"> 
           <input id="mulheres-qnt" class="form-control" type="number" />
+          <label for="mulheres-qnt">Mulheres</label>
         </div>
   
-        <div class="col"> 
-          <label for="homens-qnt">Homens</label>
+        <div class="col-md-3"> 
           <input id="homens-qnt" class="form-control" type="number" />
+          <label for="homens-qnt">Homens</label>
         </div>
   
-        <div class="col">
-          <label for="criancas-qnt">Crianças</label>
+        <div class="col-md-3">
           <input id="criancas-qnt" class="form-control" type="number" />
+          <label for="criancas-qnt">Crianças</label>
         </div>
         
         <br>
-        <div class="col">
-          <label for="acompanhamentos">acompanhamentos</label>
-          <input id="acompanhamentos" class="form-control" type="checkbox" />
+      </div>
+
+      <div class="row letra-especial">
+        <div class="col-md-6">
+          <label for="acompanhamentos">Acompanhamentos<input id="acompanhamentos" class="form-control" type="checkbox" /></label>
         </div>
       </div>
   
-      <div class="row">
-          
-        <div class="col">
+      <div class="row letra-especial">  
+        <div class="col-md-3 letra-especial-titulo">
           <span>Bebidas</span>
         </div>
   
-        <div class="col">
-          <label for="bebidas-alcoolicas">Bebidas alcoolicas</label>
+        <div class="col-md-3">
           <input id="bebidas-alcoolicas" class="form-control" type="number" />
+          <label for="bebidas-alcoolicas">Bebidas alcoolicas</label>
         </div>
   
-        <div class="col">
-          <label for="bebidas-nao-alcoolicas">Bebidas não alcoolicas</label>
+        <div class="col-md-3">
           <input id="bebidas-nao-alcoolicas" class="form-control" type="number" />
+          <label for="bebidas-nao-alcoolicas">Bebidas não alcoolicas</label>
         </div>
   
       </div>
       <br>
       
-      <div class="container">
-        <div class="d-flex justify-content-center">
-          <button id="botaoCalcular">Calcular</button>
-        </div>
+      <div class="d-flex justify-content-center letra-especial">
+        <button id="botaoCalcular">Calcular</button>
       </div>
   
   
-      <div id="resultado">
+      <div id="resultado" class="letra-especial">
         <div>
           <label for="total-carne" id="total-carne"></label>
         </div>
